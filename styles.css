@@ -1,0 +1,194 @@
+.selected {
+  background-color: #998461!important;
+  color: #ffffff!important;
+}
+#container {
+  width: calc(100% - 200px);
+  margin: 0 auto;
+  max-width: 1366px;
+}
+#container #header {
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+#container #header .nav-holder {
+  padding: 1rem 0;
+}
+#container #header ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#container #header ul li {
+  display: inline-block;
+}
+#container #header ul li a {
+  display: block;
+  padding: 15px 12px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+#container #content {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+#container #content .main-col {
+  padding: 10px;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+#container #content .width-15pc {
+  max-width: 15%;
+}
+#container #content .width-15pc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#container #content .width-15pc ul li {
+  display: block;
+  margin: 0 0 10px 0;
+}
+#container #content .width-15pc ul li a {
+  text-decoration: none;
+}
+#container #content .width-15pc ul li a img {
+  max-width: 75%;
+}
+#container #content .width-40pc {
+  max-width: 40%;
+}
+#container #content .width-40pc img {
+  max-width: 90%;
+}
+#container #content .width-45pc {
+  max-width: 45%;
+}
+#container #content .width-45pc h1 {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+#container #content .width-45pc .product-attributes {
+  font-size: 13px;
+  color: #ccc;
+}
+#container #content .width-45pc .product-sizes ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1em;
+}
+#container #content .width-45pc .product-sizes ul li {
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+#container #content .width-45pc .product-sizes ul li a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: #cccccc 1px solid;
+}
+#container #content .width-45pc .product-sizes ul li a:hover {
+  border: #000000 1px solid;
+}
+#container #content .width-45pc .product-sizes ul a.active {
+  background-color: #998461!important;
+  color: #ffffff!important;
+}
+#container #content .width-45pc .qty a {
+  display: inline-block;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: #cccccc 1px solid;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  max-width: 20px;
+  text-decoration: none;
+  color: #000000;
+  text-align: center;
+  vertical-align: top;
+}
+#container #content .width-45pc .qty input {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  max-width: 20px;
+  text-align: center;
+  margin: 0 5px;
+  border-radius: 2px;
+  border: #cccccc 1px solid;
+}
+#container #content .width-45pc .btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+#container #content .width-45pc .btn:hover {
+  background-color: #1a1a1a;
+}
+#container #content .width-45pc .btn.visited {
+  background-color: #998461!important;
+  color: #ffffff!important;
+}
+.popup {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  display: none;
+}
+.popup .popup-container {
+  z-index: 100;
+  background-color: #ffffff;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30%;
+}
+.popup .popup-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
+.popup .popup-container ul li {
+  float: left;
+}
+.popup .popup-container ul li img {
+  max-width: 75%;
+}
+.hide {
+  display: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.error {
+  color: red;
+}
